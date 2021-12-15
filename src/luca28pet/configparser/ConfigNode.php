@@ -28,14 +28,14 @@ class ConfigNode {
 
 	public function toFloat() : float {
 		if (!is_float($this->data)) {
-			throw new IncompatibleConfigNodeTypeException('Cannot convert node value to string from type '.gettype($this->data));
+			throw new IncompatibleConfigNodeTypeException('Cannot convert node value to float from type '.gettype($this->data));
 		}
 		return $this->data;
 	}
 
 	public function toBool() : bool {
 		if (!is_bool($this->data)) {
-			throw new IncompatibleConfigNodeTypeException('Cannot convert node value to string from type '.gettype($this->data));
+			throw new IncompatibleConfigNodeTypeException('Cannot convert node value to bool from type '.gettype($this->data));
 		}
 		return $this->data;
 	}
