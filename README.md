@@ -1,2 +1,2 @@
 # ConfigParser
-Virion for configuration data parsing
+Virion for configuration data parsing.
