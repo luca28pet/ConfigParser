@@ -1,0 +1,5 @@
+projects:
+  ConfigParser:
+    path: ""
+    type: library
+    model: virion
